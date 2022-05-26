@@ -1,4 +1,3 @@
-import re
 class Quadratic_equations:
     try:
         a = float(input("Enter a (number before x^2): "))
