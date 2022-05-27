@@ -27,3 +27,5 @@ w = Quadratic_equations(a=Quadratic_equations.a, b=Quadratic_equations.b, c=Quad
 w.calculations()
 
 print('I did it! Finally!')
+
+print('gokrigjitrjowrgowjkogw4ot')
