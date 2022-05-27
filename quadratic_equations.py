@@ -25,3 +25,5 @@ class Quadratic_equations:
             print(f'''X1 is {x2()} and X2 is {x1()}.''')
 w = Quadratic_equations(a=Quadratic_equations.a, b=Quadratic_equations.b, c=Quadratic_equations.c)
 w.calculations()
+
+print('kokokfoofkfokfk')
