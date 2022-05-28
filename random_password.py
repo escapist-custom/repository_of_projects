@@ -20,5 +20,3 @@ class File(Random_password):
 a = File()
 a.rand()
 a.writing_in_file()
-
-print("Something")
