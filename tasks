@@ -20,3 +20,16 @@ else:
         print((int(yx) - int(xy)) * 2)
 
 # task c
+len_word = input()
+s_word = input()
+list_vowels = ['a', 'e', 'o', 'u', 'i']
+count = 0
+empty_list = []
+for i in range(len(s_word) - 1):
+    if s_word[i] in list_vowels and s_word[i + 1] in list_vowels:
+        count += 1
+        s_word = s_word[1:]
+for i in range(len(s_word) - 2):
+    if s_word[i] not in list_vowels and s_word[i + 1] not in list_vowels and s_word[i + 2] not in list_vowels:
+        count += 1
+print(count)
