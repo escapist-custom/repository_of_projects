@@ -1,0 +1,22 @@
+# task a 
+number = int(input())
+list1 = []
+for i in range(number):
+    if number == i * (i + 1) / 2:
+        print('Yes')
+        list1.append(1)
+        break
+if len(list1) < 1:
+    print('No')
+
+
+# tast b
+xy = input()
+yx = xy[1] + xy[0]
+if xy[0] == xy[1]:
+    print(0)
+else:
+    if xy[0] < xy[1]:
+        print((int(yx) - int(xy)) * 2)
+
+# task c
